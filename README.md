@@ -1,7 +1,8 @@
 # PassGenerator
 Generates passwords. Used PyQt5, random and pyperclip libraries.
 
-# !important! 
+# Installing
+!important  </br>
 Before launching you need to install libraries.  <br/>
 Go to your Terminal (MacOS) or cmd (Windows) and write:  <br/>
 
