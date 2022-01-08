@@ -83,6 +83,7 @@ class Ui_MainWindow(object):
         password = "".join(random.sample(all, length))
         self.label_2.setText(password)
         self.label_2.setAlignment(QtCore.Qt.AlignCenter | QtCore.Qt.AlignVCenter)
+        self.label_4.setText('')
 
     def copy(self):
         pyperclip.copy(self.label_2.text())
